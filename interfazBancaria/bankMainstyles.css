@@ -1,0 +1,186 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 150px;
+    height: 100%;
+    width: 25%;
+    right: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: rgb(85, 47, 166);
+    /* overflow-x: hidden; */
+    padding-top: 60px;
+}
+
+.button {
+    background-color: #bf99ea8c;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    transition: 0.3s;
+    text-align: center;
+    border: 0;
+    outline: none;
+}
+
+.button:hover {
+    color: #b7b7b7;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
+.exit-button {
+    cursor: pointer;
+    border: solid 1px #ffffff;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.exit-button:hover {
+    color: #d2d2d2;
+    font-size: xx-large;
+}
+
+#name-tag {
+    margin-left: 2%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+}
+
+.amount {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    height: 10rem;
+    width: 20rem;
+    border-radius: 4px;
+    padding: 24px;
+    box-shadow: 0 0 20px rgb(200, 200, 200);
+    text-align: center;
+}
+
+.money {
+    font-size: xx-large;
+    border: solid 1px #888888;
+    padding: 5px;
+    border-radius: 2px;
+    text-align: center;
+    width: 100%;
+    }
+
+.dep-popup {
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 100px;
+    visibility: hidden;
+    transition: transform 0.4s;
+}
+
+#dep-number{
+    margin-top: 20px;
+    border: solid 1px rgb(117, 117, 117);
+    border-radius: 5px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.add-money {
+    visibility: visible;
+}
+
+.dep-popup-buttons {
+    margin-top: 50px;
+}
+
+.confirm {
+    width: 40%;
+    margin-right: 20px;
+    padding: 20px 0;
+    background-color: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.confirm:hover {
+    background-color: #b3ff98;
+}
+
+.cancel {
+    width: 40%;
+    padding: 20px 0;
+    background-color: #d04040;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cancel:hover {
+    background-color: #ff8686;
+}
+
+.wd-popup {
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 100px;
+    visibility: hidden;
+    transition: transform 0.4s;
+}
+
+#wd-number{
+    margin-top: 20px;
+    border: solid 1px rgb(117, 117, 117);
+    border-radius: 5px;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.remove-money {
+    visibility: visible;
+}
+
+.wd-popup-buttons {
+    margin-top: 50px;
+}
